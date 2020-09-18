@@ -3,7 +3,7 @@ html {
 }
 
 /* ----------HEADER----------*/
-img {
+#sky {
   width: 1835px;
   height: 300px;
 }
@@ -34,6 +34,10 @@ h3 {
   width: 16rem;
   min-width: 10rem;
   height: 10rem;
+}
+
+img {
+  width: 555px
 }
 
 /* ----------FOOTER----------*/
