@@ -24,16 +24,25 @@ h3 {
   color: rgb(27 197 250)
 }
 
+.mycont {
+  margin-left: 15rem;
+}
+
 .menu {
-  background-color: rgb(129 211 234);
+  background-color: rgb(175 229 246);
   position: fixed;
+  letter-spacing: 1px;
   left: 23px;
   top: 420px;
   padding-top: 15px;
   margin-bottom: 0;
-  width: 16rem;
   min-width: 10rem;
   height: 10rem;
+  border-radius: 1rem;
+}
+
+.liste {
+  margin-right: 1rem;
 }
 
 img {
