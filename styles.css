@@ -29,17 +29,25 @@ h2 {
 }
 
 .menu {
-  background-color: rgb(175 229 246);
+  background-color: rgb(76 224 253 / 42%);
   position: absolute;
   letter-spacing: 1px;
-  border-radius: 1rem;
+  border-radius: 2rem;
   right: 23px;
-  top: 340px;
+  top: 347px;
 }
 
 .nav-item {
   padding: 1rem;
+  font-size: 130%;
+}
 
+a {
+  color: #0065ffc4 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 img {
@@ -92,6 +100,19 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    position: static;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .nav-item {
+    padding: 1rem 3rem;
+    font-size: 170%;
+  }
+
   .mbtn {
     width: 5.5rem;
     height: 5.5rem;
