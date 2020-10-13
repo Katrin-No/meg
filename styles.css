@@ -10,7 +10,7 @@ html {
 
 .hallo {
   width: 100%;
-  padding-left: 15px;
+  padding-left: 2rem;
   margin-bottom: 30px;
   color: rgb(27 197 250)
 }
@@ -136,6 +136,7 @@ footer {
 
   #profil {
     width: 30%;
+    height: auto;
   }
 
   .mbtn {
